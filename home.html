@@ -34,6 +34,11 @@
 
     <div class="jumbotron">
         <h1 class="display-4 jumbotron-heading">Hi, I am Rahil Kadakia</h1>
+        <div class="resume">
+            <button class="resume-button">
+                Download Resume
+            </button>
+        </div>
     </div>
 
     <div class="education">
@@ -54,7 +59,7 @@
                                         <p>Board: HSC <br> Score: 94%</p>
                                     </li>
                                     <li class="event" data-date="2016">
-                                        <h1>Gopi Birla Memeorial School</h1>
+                                        <h1>Gopi Birla Memorial School</h1>
                                         <p>Board: CBSE <br> CGPA:10 <br> Score 93.4%</p>
                                     </li>
                                 </ul>
@@ -107,12 +112,72 @@
     </div>
 
     <div class="skills">
-        <h1>Skills</h1>
+        <h1 class="cat-head">Skills</h1>
+
+        <div class="row">
+            <div class="column">
+              <div class="card">Python</div>
+            </div>
+            <div class="column">
+              <div class="card">C</div>
+            </div>
+            <div class="column">
+              <div class="card">C++</div>
+            </div>
+            <div class="column">
+              <div class="card">Java</div>
+            </div>
+            <div class="column">
+              <div class="card">Angular</div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+              <div class="card">Flask</div>
+            </div>
+            <div class="column">
+              <div class="card">Django</div>
+            </div>
+            <div class="column">
+              <div class="card">PHP</div>
+            </div>
+            <div class="column">
+              <div class="card">Docker</div>
+            </div>
+            <div class="column">
+              <div class="card">Machine Learning</div>
+            </div>
+        </div>
     </div>
 
-    <div class="extra-curriculars">
-        <h1>Extra Curriculars</h1>
+    
+
+    <div class="research">
+        <h1 class="cat-head">Research Work</h1>
+        <div class="row">
+            <div class="column">
+                <a href="https://ieeexplore.ieee.org/document/9587731" target="_blank">
+                    <div class="card">
+                        <p>Comparative Analysis of Micro Expression Recognition using Deep Learning and Transfer Learning</p>
+                    </div>
+                </a>
+            </div>
+            <div class="column">
+                <a href="#!" data-toggle="popover" data-trigger="focus" title="Paper Status" data-content="Paper under Review">
+                    <div class="card">
+                        <p>3DL-PS: An Image Encryption Technique using 3D Logistic Map, Hashing Functions and Pixel Scrambling Techniques</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+    </script>
 
     
 

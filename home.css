@@ -130,13 +130,14 @@ body{margin-top:20px;}
     z-index: 1001;
     margin-bottom: 0px !important;
     border-radius: 0px !important;
+    vertical-align: middle;
     /* -webkit-transition: all ease-out .3s; */
 }
 
 
 .jumbotron{
     width: auto;
-    height: 683px;
+    height: 753px;
     background-color: black !important;
 }
 
@@ -176,4 +177,92 @@ body{margin-top:20px;}
   /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: gray; 
+}
+
+.skills .column {
+    float: left;
+    width: 20%;
+    padding: 0 40px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+.skills .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 11em; 
+    padding-top: 4.6em;
+  }
+  
+.skills .row{
+    /* margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em; */
+    margin: auto;
+    padding-bottom: 5em;
+    width: 80%;
+}
+
+.research .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 11em; 
+    padding-top: 4.6em;
+  }
+  
+.research .row{
+    /* margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em; */
+    /* margin: auto; */
+    padding-bottom: 5em;
+    width: 70%;
+    margin-left: 31em;
+}
+
+.research .column {
+    float: left;
+    width: 30%;
+    padding: 0 40px;
+  }
+
+.research{
+    align-items: center;
+}
+
+.research p{
+    margin-top: -2em;
+}
+
+.resume{
+    margin-left: 43%;
+    margin-top: 15%;
+}
+
+.resume-button{
+    width: 10em;
+    height: 2em;
+    font-size: 20px;
+    background-color: #66ff00;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    color: #242424;
+}
+
+.resume-button:hover{
+    opacity: 1;
 }
