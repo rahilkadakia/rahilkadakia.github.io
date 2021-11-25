@@ -8,7 +8,7 @@
     <title>Rahil Kadakia's Portfolio</title>
 
     <link rel="stylesheet" href="home.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -22,10 +22,10 @@
         <div class="container">
             <a href="#" class="logo">Rahil Kadakia</a>
             <div class="navbar-right">
-                <a href="#">Education</a>
-                <a href="#">Work Experience</a>
-                <a href="#">Skills</a>
-                <a href="#">Extra Curriculars</a>
+                <a href="#education">Education</a>
+                <a href="#work">Work Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#research">Research Work</a>
             </div>
         </div>
     </div>
@@ -34,14 +34,27 @@
 
     <div class="jumbotron">
         <h1 class="display-4 jumbotron-heading">Hi, I am Rahil Kadakia</h1>
-        <div class="resume">
-            <button class="resume-button">
+        
+        <div class="socials">
+            
+                <a href="https://github.com/rahilkadakia" target="_blank">
+                    <i class="fa fa-github" style="font-size:60px"></i>
+                </a>
+            
+                <a href="https://www.linkedin.com/in/rahilkadakia99/" target="_blank">
+                    <i class="fa fa-linkedin" style="font-size:60px"></i>
+                </a>
+            
+        </div>
+        
+        <a href="Rahil_Resume.pdf" target="_blank">
+            <button class="resume-button"><span class="glyphicon glyphicon-download-alt"></span>
                 Download Resume
             </button>
-        </div>
+        </a>
     </div>
 
-    <div class="education">
+    <div class="education" id="education">
         <h1 class="cat-head">Education</h1>
         <div class="container">
             <div class="row">
@@ -71,7 +84,7 @@
         </div>
     </div>
 
-    <div class="work">
+    <div class="work" id="work">
         <h1 class="cat-head">Work Experience</h1>
         <div class="container">
             <div class="row">
@@ -111,7 +124,7 @@
 
     </div>
 
-    <div class="skills">
+    <div class="skills" id="skills">
         <h1 class="cat-head">Skills</h1>
 
         <div class="row">
@@ -153,7 +166,7 @@
 
     
 
-    <div class="research">
+    <div class="research" id="research">
         <h1 class="cat-head">Research Work</h1>
         <div class="row">
             <div class="column">
@@ -179,7 +192,30 @@
         });
     </script>
 
+
+    <div class="projects" id="projects">
+        <h1 class="cat-head">Projects</h1>
+        <div class="row">
+            <div class="column">
+                <a href="https://github.com/rahilkadakia/Stockmarket/" target="_blank">
+                    <div class="card">
+                        <p>Stock Market Prediction using Stacked LSTM Architecture</p>
+                    </div>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://github.com/rahilkadakia/MicroExpressionAI" target="_blank">
+                    <div class="card">
+                        <p>Micro Expression Detection using Tensorflow</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
     
+    <div class="footer">
+
+    </div>
 
 
 </body>
