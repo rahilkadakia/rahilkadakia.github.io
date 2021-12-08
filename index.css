@@ -274,15 +274,24 @@ body{margin-top:20px;}
 }
 
 
-.projects .card {
+.projects .stock-market {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
     height: 11em; 
-    padding-top: 4.6em;
-  }
-  
+    padding-top: 4em;
+}
+
+.projects .micro-expressions {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 11em; 
+    padding-top: 3.6em;
+}
+
 .projects .row{
     /* margin-left: 2em;
     margin-right: 2em;
@@ -301,6 +310,8 @@ body{margin-top:20px;}
 
 .projects{
     align-items: center;
+    margin: 0;
+    position: relative;
 }
 
 .research p{
@@ -308,6 +319,12 @@ body{margin-top:20px;}
 }
 
 .resume-button{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 12em;
     height: 2em;
     font-size: 20px;
@@ -317,8 +334,14 @@ body{margin-top:20px;}
     opacity: 0.9;
     color: #242424;
     border-radius: 25px;
-    margin-left: 43%;
-    margin-top: 7%;
+    /* margin-left: 43%;
+    margin-top: 7%; */
+}
+
+
+.button-outer{
+    height: 200px;
+    position: relative;
 }
 
 .glyphicon-download-alt{
@@ -351,4 +374,81 @@ p{
 
 .fa:hover{
     opacity: 0.8;
+}
+
+.python:hover{
+    background: url("Skills/python.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.c:hover{
+    background: url("Skills/C.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.cpp:hover{
+    background: url("Skills/cpp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.java:hover{
+    background: url("Skills/java.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.angular:hover{
+    background: url("Skills/angular.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.flask:hover{
+    background: url("Skills/flask.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.django:hover{
+    background: url("Skills/django.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.php:hover{
+    background: url("Skills/php.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.docker:hover{
+    background: url("Skills/docker.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.ml:hover{
+    background: url("Skills/ml.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+}
+
+.flask:hover{
+    background: url("Skills/flask.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
 }
